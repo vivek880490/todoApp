@@ -1,8 +1,11 @@
-export default function List() {
+export default function List({ data}) {
     return (
-
-        <p className="List">Nothing to do buddy. Sleep!!</p>
-      
+      <div>
+        <h4>
+          {data}
+        </h4>
+      </div>
     );
   }
+  
   
